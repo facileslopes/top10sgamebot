@@ -152,5 +152,5 @@ async def on_message(message):
         InfoEmbed.add_field(name='What is this bot about?', value='Programmed in Python, this bot allows you to play a game where you attempt to guess the top 10 posts of a subreddit of your choice. Can be played by one or multiple people.')
         InfoEmbed.add_field(name='How do I play?',value='Start a game with $playgame! The bot will prompt you, and you can answer to it with the $ prefix!')
         await message.channel.send(embed=InfoEmbed)
-#Paste discord bot key here
+#Paste discord bot token here
 client.run('')
